@@ -8,6 +8,6 @@ WORKDIR /opt/app
 
 RUN npm install --loglevel=warn
 
-COPY lib/ /opt/app/lib
+COPY ./ /opt/app/lib
 
 EXPOSE ${PORT:-80}
