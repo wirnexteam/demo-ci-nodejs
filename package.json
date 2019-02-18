@@ -1,0 +1,27 @@
+{
+  "name": "demo-ci-nodejs",
+  "version": "1.0.0",
+  "description": "Demo project with CI config Uptm.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wirnexteam/demo-ci-nodejs.git"
+  },
+  "keywords": [
+    "ci",
+    "nodejs"
+  ],
+  "author": "Wirnex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wirnexteam/demo-ci-nodejs/issues"
+  },
+  "homepage": "https://github.com/wirnexteam/demo-ci-nodejs#readme",
+  "dependencies": {
+    "@types/jest": "^24.0.6",
+    "jest": "^24.1.0"
+  }
+}
